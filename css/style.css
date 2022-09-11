@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+:root {
+    --darkblue: #120a3b;
+    --white:#fff;
+    --bege:#d19c4e;
+}
+.logo {
+    width: 80px;
+    margin-top: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--darkblue);
+    padding: 18px 80px;
+    transition: all 0.5s;
+    width: 100%;
+    position: fixed;
+    height: 13%;
+}
+.navigation ul {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+.navigation ul li a {
+    color: var(--white);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.navigation ul li a:hover {
+    color: var(--bege);
+}
+.navigation i {
+    cursor: pointer;
+    color: var(--white);
+    font-size: 25px;
+}
+.menu {
+    cursor: pointer;
+    display: none;
+}
+.menu .bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: var(--white);
+    margin: 5px 0;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+.principal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 10%;
+}
+.div-imagem {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+.div-imagem img {
+    width: 90%;
+    border-radius: 30%;
+    margin-left: 35px;
+}
+.div-textos {
+    width: 50%;
+    height: 100%;
+}
+.div-textos h4 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+.div-textos h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+.div-textos p {
+    margin-bottom: 4rem;
+}
+.div-textos a {
+    background: var(--darkblue);
+    color: var(--white);
+    padding: 15px 45px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+.div-textos a:hover {
+    background: #d19c4e;
+    color: var(--darkblue);
+}
+.canais-atendimento {
+    display: flex;
+    flex-direction: column;
+    background: var(--darkblue);
+    color: var(--white);
+    padding: 70px 8%;
+    gap: 10px 0;
+}
+.copy {
+    text-align: center;
+    background: var(--darkblue);
+    color: var(--white);
+    padding: 0 0 50px 0;
+}
+.canais-atendimento h3 {
+    color: var(--bege);
+    margin-bottom: 1rem;
+}
+.canais-atendimento span {
+    color: var(--bege);
+}
+
+@media only screen and (max-width:785px) {
+    .navigation {
+        padding: 18px 20px;
+    }
+    .menu {
+        display: block;
+    }
+    .navigation ul {
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background: var(--darkblue);
+        gap: -10px;
+        transition: 0.3s;
+    }
+    .navigation li {
+        margin: 16px 0;
+    }
+    .menu.ativo .bar:nth-child(1) {
+        transform:translateY(8px) rotate(45deg)
+    }
+    .menu.ativo .bar:nth-child(2) {
+        opacity:0
+    }
+    .menu.ativo .bar:nth-child(3) {
+        transform:translateY(-8px) rotate(-45deg)
+    }
+    .navigation ul.ativo{
+        right: 0;
+    }
+    .principal {
+        padding: 171px 2% 70px 2%;
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+    }
+    .div-textos h4 {
+        font-size: 34px;
+    }
+    .div-textos h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .div-textos p {
+        font-size: 21px;
+    }
+    .div-imagem {
+        width: 110%;
+    }
+    .div-imagem img {
+        margin-left: 13px;
+        
+    }
+    .div-textos {
+        width: 90%;
+    }
+    .div-textos a {
+        font-size: 70% ;
+    }
+}
