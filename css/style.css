@@ -168,6 +168,7 @@
         flex-direction: column;
         text-align: center;
         gap: 4rem;
+        overflow-x: hidden;
     }
     .div-textos h4 {
         font-size: 34px;
@@ -183,7 +184,7 @@
         width: 110%;
     }
     .div-imagem img {
-        margin-left: 13px;
+        margin-left: 0px;
         
     }
     .div-textos {
