@@ -164,10 +164,10 @@
         right: 0;
     }
     .principal {
-        padding: 171px 2% 70px 2%;
+        padding: 133px 2% 34px 2%;
         flex-direction: column;
         text-align: center;
-        gap: 5rem;
+        gap: 4rem;
     }
     .div-textos h4 {
         font-size: 34px;
