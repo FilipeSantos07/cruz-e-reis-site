@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background: var(--darkblue);
     padding: 18px 80px;
     transition: all 0.5s;
@@ -70,14 +71,16 @@
     padding: 150px 10%;
 }
 .div-imagem {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 100%;
 }
 .div-imagem img {
     width: 90%;
     border-radius: 30%;
-    margin-left: 35px;
+    
 }
 .div-textos {
     width: 50%;
@@ -129,7 +132,23 @@
 .canais-atendimento span {
     color: var(--bege);
 }
-
+@media only screen and (max-width:950px) {
+    .principal {
+        flex-direction: column;
+        padding: 150px 10% 50px 10%;
+        
+    }
+    .div-textos {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .div-imagem {
+        width: 130%;
+        margin-top: 70px;
+        text-align: center;
+    }
+}
 @media only screen and (max-width:785px) {
     .navigation {
         padding: 18px 20px;
@@ -182,6 +201,7 @@
     }
     .div-imagem {
         width: 110%;
+        margin-top: 21px;
     }
     .div-imagem img {
         margin-left: 0px;
@@ -194,3 +214,5 @@
         font-size: 70% ;
     }
 }
+
+ 
