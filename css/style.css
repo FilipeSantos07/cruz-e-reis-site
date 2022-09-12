@@ -22,7 +22,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     background: var(--darkblue);
     padding: 18px 80px;
     transition: all 0.5s;
@@ -83,7 +82,7 @@
     
 }
 .div-textos {
-    width: 50%;
+    max-width: 50%;
     height: 100%;
 }
 .div-textos h4 {
