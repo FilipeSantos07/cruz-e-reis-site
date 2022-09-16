@@ -1,4 +1,4 @@
-# Cruz e Reis Web Site 
+# Cruz e Reis Advocacia Web Site 
 
 ![preview](./.github/preview.png)
 
