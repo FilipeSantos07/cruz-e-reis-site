@@ -12,7 +12,6 @@ Tenho dois primos advogados, daí tive a ideia de criar um site pra eles e trein
 
 - HTML
 - CSS
-- JavaScript
 
 ## 💛 Contato
 
