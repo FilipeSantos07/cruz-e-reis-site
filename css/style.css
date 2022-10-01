@@ -28,7 +28,7 @@ nav {
     justify-content: space-between;
 }
 nav a img {
-    width: 130px;
+    width: 110px;
     animation: fromTop 1.2s;
 }
 nav ul {
@@ -64,7 +64,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 100px 0 180px 0 ;
+    margin: 80px 0 180px 0 ;
     gap: 77px;
 }
 main section {
