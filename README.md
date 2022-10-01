@@ -4,7 +4,7 @@
 
 > Criando um Site de advogados
 
-Esse projeto ainda não está finalizado, tou colocando em prática meus conhecimentos obtidos até aqui! Irei construindo conforme for evoluindo nos estudos...
+Tenho dois primos advogados, daí tive a ideia de criar um site pra eles e treinar o que eu venho aprendendo até aqui, tá ficando muito legal! hehe
 
 [🔗 Clique aqui para acessar](https://filipesantos07.github.io/cruz-e-reis-site/)
 
